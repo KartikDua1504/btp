@@ -1,0 +1,13 @@
+<routes>
+    <vType id="ICV" accel="2.6" decel="4.5" sigma="0.3" length="5.0" maxSpeed="33.3" color="0,255,0" />
+    <vType id="NICV" accel="2.4" decel="4.0" sigma="0.5" length="5.0" maxSpeed="28.9" color="255,0,0" />
+    
+    <flow id="flow_icv" type="ICV" begin="0" end="600" probability="0.4" from="A1A0" to="C1C2" departLane="best" departSpeed="max"/>
+    <flow id="flow_nicv" type="NICV" begin="0" end="600" probability="0.6" from="A1A0" to="C1C2" departLane="best" departSpeed="max"/>
+    
+    <flow id="flow_icv_2" type="ICV" begin="0" end="600" probability="0.4" from="B0A0" to="B2C2" departLane="best" departSpeed="max"/>
+    <flow id="flow_nicv_2" type="NICV" begin="0" end="600" probability="0.6" from="B0A0" to="B2C2" departLane="best" departSpeed="max"/>
+    
+    <flow id="flow_icv_3" type="ICV" begin="0" end="600" probability="0.4" from="C1C0" to="A1A2" departLane="best" departSpeed="max"/>
+    <flow id="flow_nicv_3" type="NICV" begin="0" end="600" probability="0.6" from="C1C0" to="A1A2" departLane="best" departSpeed="max"/>
+</routes>
