@@ -3,6 +3,9 @@ __pycache__/
 *.pyc
 .DS_Store
 
+# Nested git repository (tracked independently)
+BTP-sem7-v1/
+
 # Explicitly ignored at all times
 cambridge_battlecode/
 BotAPICpp.md
