@@ -2,3 +2,8 @@
 __pycache__/
 *.pyc
 .DS_Store
+
+# Explicitly ignored at all times
+cambridge_battlecode/
+BotAPICpp.md
+GameRules.md
